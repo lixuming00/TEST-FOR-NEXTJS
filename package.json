@@ -1,0 +1,32 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ./database-test.js && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "mock-server": "json-server --watch ./db.json -p 4001 -d 1500"
+  },
+  "dependencies": {
+    "antd": "^4.21.5",
+    "axios": "^0.27.2",
+    "babel-plugin-import": "^1.13.5",
+    "bcrypt": "4.0.1",
+    "cookie": "^0.5.0",
+    "jsonwebtoken": "8.5.1",
+    "next": "12.1.6",
+    "next-images": "^1.8.4",
+    "next-plugin-antd-less": "^1.8.0",
+    "next-transpile-modules": "^9.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sqlite": "3.0.6",
+    "swr": "0.1.18"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
